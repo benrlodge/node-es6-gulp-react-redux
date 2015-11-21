@@ -37,7 +37,8 @@
     "history": "^1.13.1",
     "nodemon": "^1.8.1",
     "react": "^0.14.3",
-    "react-router": "^1.0.0",
+    "react-dom": "^0.14.3",
+    "react-router": "^0.13.3",
     "react-tools": "^0.13.3",
     "webpack": "^1.7.3"
   }

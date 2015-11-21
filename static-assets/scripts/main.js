@@ -1,4 +1,6 @@
-import Example from './example.js';
+import React from 'react';
+import ReactDOM from 'react-dom'; 
+import Router from 'react-router';
+import routes from './routes';
 
-console.log('Oh hi. I am main.');
-const example = new Example();
+Router.run(routes, Router.HistoryLocation, Handler => ReactDOM.render(<Handler />, document.getElementById('app')));
